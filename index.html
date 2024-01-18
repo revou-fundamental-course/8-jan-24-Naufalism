@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katik</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="https://p7.hiclipart.com/preview/425/470/333/brand-logo-font-calculator.jpg">
+</head>
+<body>
+   <div class="container">
+     <header><h1>Katik</h1> <span class="bolder">Kalkulator Matematik</span></header>
+     <h4>Welcome to Katik</h4>
+        <h4>Sebuah web apps sederhana utnuk menghitung luas dan keliling Persegi</h4>
+        <a href="#luas">Luas</a><br>
+        <a href="#keliling">Keliling</a>
+        <h1 class="centering">Luas Persegi</h1>
+     <div class="content">
+      <center>
+      <img src="https://i0.wp.com/www.mahirmatematika.com/wp-content/uploads/2018/07/persegi.jpg?fit=564%2C538&ssl=1; " alt="Persegi">
+      </center>
+      <p class="tahoma">Rumus luas Persegi yaitu :</p>
+      <h5 class="tahoma">L = S * S</h5>
+      <p class="tahoma">Penjelasan : <br>L = Luas <br>S = Sisi</p>
+      <hr>
+      <h1 class="centering">Hitung Luas Persegi</h1>
+        <form action="">
+            <input type="number" id="sisis" class="textfiller"> <br>
+            <p class="tahoma">L = S * S  <br>L = <span id="output"></span></p>
+            <div class="mid">
+            <button id="hitungs">Hitung</button> <br>
+            <input type="reset" class="reset">
+            </div>
+        </form>
+     </div>
+
+     <h1 class="centering">Keliling Persegi</h1>
+     <div class="content">
+      <center>
+      <img src="https://i0.wp.com/www.mahirmatematika.com/wp-content/uploads/2018/07/persegi.jpg?fit=564%2C538&ssl=1; " alt="Persegi">
+      </center>
+      <p class="tahoma">Rumus keliling Persegi yaitu :</p>
+      <h5 class="tahoma">K = S + S + S + S</h5>
+      <p class="tahoma">Penjelasan : <br>K = Keliling <br>S = Sisi</p>
+      <hr>
+      <h1 class="centering">Hitung Keliling Persegi</h1>
+        <form action="index.html" method="get">
+            <input type="number" id="sisi" class="textfiller"> <br>
+            <p class="tahoma">K = S + S + S + S <br>K = <span id="outputs"></span></p>
+            <div class="mid">
+            <button id="hitung">Hitung</button> <br>
+            <input type="reset" class="reset">
+            </div>
+        </form>
+     </div>
+   </div>
+
+   <script src="js/script.js"></script>
+</body>
+</html>
